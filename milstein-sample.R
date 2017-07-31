@@ -32,11 +32,12 @@ set.seed(0)
 
 
 # SCIENTIFIC AESTHETICS
+# For those who appreciate the universal Donald Knuth classic
 #require(grDevices)
 #require(fontcm)
 #require(Cairo)
-#X11(family = "Times")
 #par(family = "ComputerModern")
+#CairoFonts(regular = "Latin Modern Roman")
 
 
 
