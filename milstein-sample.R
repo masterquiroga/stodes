@@ -98,7 +98,7 @@ X <- milstein(
   lwd.path = 0.1,
   axes = T,
   bty = "n",
-  main = "Periodic difusion",
+  main = "Periodic diffusion",
   #main = latex2exp::TeX(
   #  string = "$dX_t = t \\sin(tX_t)dt + \\sin(t)dB_t , X_0 = 0$"), 
   font.main = 1,
@@ -139,7 +139,7 @@ milstein(
   col.mean = gray(0,0.38), 
   axes = T,
   bty = "n",
-  main = "Periodic difusion",
+  main = "Periodic diffusion",
   #main = latex2exp::TeX(
   #  string = "$dX_t = \\cos(tX_t) (\\log(t + 1) - sin (t X_t)) dt 
   #                   - (\\sin(t X_t) + \\cos(t \\wedge X_t))dB_t$"), 
